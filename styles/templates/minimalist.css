@@ -1,0 +1,183 @@
+@media print {
+.minimalist {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.minimalist header {
+    text-align: center;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.minimalist h1 {
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.minimalist h2 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #888;
+}
+
+.minimalist h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #2193b0;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.minimalist .contact-info {
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.minimalist ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.minimalist ul li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.minimalist ul li::before {
+    content: "•";
+    color: #2193b0;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.minimalist .education div, .minimalist .experience div {
+    margin-bottom: 20px;
+}
+
+.minimalist .education h4, .minimalist .experience h4 {
+    color: #2193b0;
+    margin-bottom: 5px;
+}
+
+.minimalist .education p, .minimalist .experience p {
+    color: #666;
+    font-style: italic;
+    font-size: 14px;
+}
+
+@media print {
+    .minimalist {
+        border: none;
+    }
+}
+}
+/*NOW FOR THE PREVIEW*/
+.minimalist {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.minimalist header {
+    text-align: center;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.minimalist h1 {
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.minimalist h2 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #888;
+}
+
+.minimalist h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #2193b0;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.minimalist .contact-info {
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.minimalist ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.minimalist ul li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.minimalist ul li::before {
+    content: "•";
+    color: #2193b0;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.minimalist .education div, .minimalist .experience div {
+    margin-bottom: 20px;
+}
+
+.minimalist .education h4, .minimalist .experience h4 {
+    color: #2193b0;
+    margin-bottom: 5px;
+}
+
+.minimalist .education p, .minimalist .experience p {
+    color: #666;
+    font-style: italic;
+    font-size: 14px;
+}
+
+@media print {
+    .minimalist {
+        border: none;
+    }
+}
